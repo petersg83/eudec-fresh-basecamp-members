@@ -1,10 +1,12 @@
-import { Client } from 'mysql';
+import { Client, configLogger } from 'mysql';
 import { isAfter, isBefore } from 'date-fns';
 import config from '../../../config.js';
 
 const { db, user, password, host } = config.france;
 
 const BATCH_SIZE = 100;
+
+await configLogger({ enable: false });
 
 const formatMember = (member) => ({
   name: `${member.firstname} ${member.lastname}`,
