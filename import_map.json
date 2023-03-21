@@ -1,0 +1,20 @@
+{
+  "imports": {
+    "$fresh/": "https://deno.land/x/fresh@1.1.4/",
+    "axiod": "https://deno.land/x/axiod@0.26.2/mod.ts",
+    "date-fns": "https://esm.sh/date-fns@2.29.3",
+    "date-fns/locale": "https://esm.sh/date-fns@2.29.3/locale/index.js",
+    "dotenv": "https://deno.land/std@0.180.0/dotenv/load.ts",
+    "lodash/fp": "https://esm.sh/lodash@4.17.21/fp.js",
+    "mysql": "https://deno.land/x/mysql@v2.11.0/mod.ts",
+    "preact": "https://esm.sh/preact@10.11.0",
+    "preact/": "https://esm.sh/preact@10.11.0/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.4",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.0.3",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.0.1",
+    "std/": "https://deno.land/std@0.180.0/",
+    "testing": "https://deno.land/std@0.180.0/testing/asserts.ts",
+    "xmlrpc": "https://esm.sh/xmlrpc@1.3.2",
+    "xmlrpc-promise": "./packages/xmlrpc-promise/load.js"
+  }
+}
