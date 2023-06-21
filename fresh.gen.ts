@@ -2,7 +2,6 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/api/generate-basecamp-members.js";
 import * as $1 from "./routes/basecamp-members.jsx";
 import * as $2 from "./routes/login.jsx";
@@ -22,7 +21,6 @@ const manifest = {
     "./islands/LoginPage.jsx": $$1,
   },
   baseUrl: import.meta.url,
-  config,
 };
 
 export default manifest;
